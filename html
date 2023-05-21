@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            margin: 50px auto;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <h2>用户登录</h2>
+        <label for="username">用户名：</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">密码：</label>
+        <input type="password" id="password" name="password" required>
+        <input type="submit" value="登录">
+    </form>
+</body>
+
+</html>
